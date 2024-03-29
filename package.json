@@ -1,0 +1,33 @@
+{
+  "name": "patientor-backend",
+  "version": "1.0.0",
+  "description": "patientor app backend",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "start": "node build/index.js",
+    "lint": "eslint --ext .ts ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idcso/patientor-backend.git"
+  },
+  "author": "idcso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idcso/patientor-backend/issues"
+  },
+  "homepage": "https://github.com/idcso/patientor-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
